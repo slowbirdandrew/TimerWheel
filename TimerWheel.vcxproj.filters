@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="timer_manager.cpp" />
+    <ClCompile Include="Timer\timer_wheel.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{821b9f85-dcfb-484f-ba16-7ce8a1406b6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="timer_manager.h" />
+    <ClInclude Include="Timer\delegate.hpp">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer\timer_node.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer\timer_wheel.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
